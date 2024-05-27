@@ -1,5 +1,4 @@
 <p align="center"><img src="src\prvict\assets\icons\prvict-logo-sideways.png" width="230" alt="Prvict Logo"></p>
-
 <div align="center">
 <b>A library pioneering innovative tech solutions.</b>
 </div>
