@@ -13,8 +13,6 @@
 
 </div>
 
-<br/>
-
 ***
 An open-source project consisting of algorithms, programs, and tech solutions for future innovations and implications. The PRVICT project is a group of programmers building solutions through computational means by solving each and every problem through the medium of technology. We have the goal of revolutionizing technology and using it for the betterment of the world. Our primary objective is to work, improvise, and optimize artificial intelligence for multiple use cases with both commercial and private implications.
 
