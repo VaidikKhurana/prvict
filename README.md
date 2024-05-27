@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![pypi](https://img.shields.io/badge/-grey?logo=python&logoColor=white)](https://google.com)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Discord]()
+![Discord](https://img.shields.io/badge/-grey?logo=discord&logoColor=white)
 
 </div>
 
