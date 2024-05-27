@@ -2,11 +2,11 @@
 <div align="center">
 
 [![github](https://img.shields.io/badge/-grey?logo=github)](https://github.com/VaidikKhurana/prvict)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 [![yt](https://img.shields.io/badge/-grey?logo=youtube)](https://www.youtube.com/@VaidikKhurana)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 [![pypi](https://img.shields.io/badge/-grey?logo=python&logoColor=white)](https://google.com)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 ![Discord](https://img.shields.io/badge/-grey?logo=discord&logoColor=white)
 
 </div>
