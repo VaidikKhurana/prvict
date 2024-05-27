@@ -1,4 +1,4 @@
-<p align="center"><img src="src\prvict\assets\icons\prvict-logo-sideways.png" width="230" alt="Prvict Logo"></p>
+<p align="center" style="margin-bottom: 0;"><img src="src\prvict\assets\icons\prvict-logo-sideways.png" width="230" alt="Prvict Logo"></p>
 <div align="center" style="margin-top: 0;">
 
 [![github](https://img.shields.io/badge/-grey?logo=github)](https://github.com/VaidikKhurana/prvict)
