@@ -1,4 +1,4 @@
-<p align="center" style="margin-bottom: 0;"><img src="src\prvict\assets\icons\prvict-logo-sideways.png" width="230" alt="Prvict Logo"></p>
+<p align="center" style="margin-bottom: 0;"><img src="https://github.com/VaidikKhurana/prvict/blob/master/src/prvict/assets/icons/prvict-logo-sideways.png" width="230" alt="Prvict Logo"></p>
 <div align="center" style="margin-top: 0;">
 
 <div align="center">
