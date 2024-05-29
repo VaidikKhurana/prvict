@@ -8,7 +8,7 @@
 
 [![github](https://img.shields.io/badge/-grey?logo=github)](https://github.com/VaidikKhurana/prvict)
 [![yt](https://img.shields.io/badge/-grey?logo=youtube)](https://www.youtube.com/@VaidikKhurana)
-[![pypi](https://img.shields.io/badge/-grey?logo=python&logoColor=white)](https://google.com)
+[![pypi](https://img.shields.io/badge/-grey?logo=python&logoColor=white)](https://pypi.org/project/prvict/)
 ![Discord](https://img.shields.io/badge/-grey?logo=discord&logoColor=white)
 
 </div>
