@@ -31,4 +31,4 @@ def contextual_sim_testw(input):
    return outcome_category
 
 
-print(contextual_sim_testw("goodby"))
+print(contextual_sim_testw("goodbye"))
