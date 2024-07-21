@@ -18,4 +18,15 @@ An open-source project consisting of algorithms, programs, and tech solutions fo
 
 Our algorithms consist of expert logical and analytical functions, allowing them to be efficient in every use. We plan on developing the world's best AIs by changing today's architecture of creating AI. In the future, the project will scale to multiple AI models for many use cases. This may include LLM's, image recognition, computer vision, and many more.
 
+
+
+
+
 ***
+
+<p align="center" style="margin-bottom: 0;"><img src="https://github.com/VaidikKhurana/prvict/blob/master/src/prvict/assets/icons/prvict_logo_pilot.png" width="230" alt="Prvict Logo"></p>
+<div align="center" style="margin-top: 0;">
+
+<b>PRVICT 0.8.6 | PILOT.</b>
+</div>
+<br>
