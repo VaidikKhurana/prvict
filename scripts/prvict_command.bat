@@ -1,6 +1,6 @@
 cd ..
 git add .
-echo version update:
+echo specify version update:
 set /p name=
 git commit -m "%name%"
 git push origin master
