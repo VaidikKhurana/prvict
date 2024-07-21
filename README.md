@@ -36,14 +36,14 @@ Our algorithms consist of expert logical and analytical functions, allowing them
 ***
 Official publication of the first PRVICT production release. Introducing more elaborate functions,  compatibility with PYPI and many amazing feautres. The following are the features added in the new PRVICT 0.8.6 UPDATE:
 
-**-: efficiency of sim() function with easier arguements.
+-: efficiency of sim() function with easier arguements.
 -: elaborated and finetuned sim() function
 -: fixed bugs in main.py
 -: added PYPI support.
 -: added accurate documentation
 -: added new sub-functions in sim() 
 -: added new algo tests
--: added proprietary license**
+-: added proprietary license
 
 **NOTE: DESPITE BEING A PRODUCTION RELEASE, THIS IS STILL THE FIRST RELEASE OF THE PROJECT AND MAY HAVE VERY MINOR INACCURACIES. THE DOCUMENTATION FOR THIS PROJECT IS AI GENERATED BUT IS EXAMINED IN A VERY THOROUGH MANNER.** 
 
