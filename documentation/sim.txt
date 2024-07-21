@@ -1,0 +1,27 @@
+sim(trainvalue, fedvalue, provide_sim=None, provide_anomaly=None, provide_all=None)
+Description: Compares two lists of integers to calculate the similarity between them. The similarity is calculated as the percentage of matching elements between the two lists. It can also return anomalies and word similarities based on the specified flags.
+
+Parameters:
+
+trainvalue (list): The reference list of integers.
+fedvalue (list): The list of integers to be compared against the reference list.
+provide_sim (bool, optional): If True, returns the similarity percentage and the list of matching integers.
+provide_anomaly (bool, optional): If True, returns the similarity percentage and the list of anomalies (indexes of non-matching integers).
+provide_all (bool, optional): If True, returns the similarity percentage, the list of anomalies, and the list of matching integers.
+Returns:
+
+sim (float): The similarity percentage.
+If provide_sim is True, returns a tuple (sim, word_sim).
+If provide_anomaly is True, returns a tuple (sim, anomaly).
+If provide_all is True, returns a tuple (sim, anomaly, word_sim).
+
+EXAMPLE:
+trainvalue = [1, 2, 3, 4]
+fedvalue = [1, 2, 0, 4]
+similarity = sim(trainvalue, fedvalue)
+print(similarity)  # Output: 75.0
+
+THIS SOURCE OF DOCUMENTATION IS EITHER PARTIALLY OR FULLY GEENRATED THOUGH A GENERATIVE PRE-TRAINED TRANSFORMER,
+AND IS THOROUGHLY CHECKED AD EXAMINED BEFORE BEING PUBLISHED IF ANY ERRORS OR INACCURACIES ARE FOUND IN THE ABO-
+VE DOCUMENTATION PLEASE CREATE A REPORT. HOWEVER ANY AND EVERY SOURCE OF CODE IS PURELY HUMAN MADE
+AND WORKS AS PER THE USERS NEEDS IF EXECUTED IN A PROPER MANNER.

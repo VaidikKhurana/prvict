@@ -1,0 +1,22 @@
+predict_string(input_string)
+Description: Predicts the most similar word from a predefined list of common words based on the input string. It calculates the similarity between the input string and each word in the list and returns the word with the highest similarity.
+
+Parameters:
+
+input_string (str): The input string for which the most similar word is to be predicted.
+Returns:
+
+max_similarity (float): The highest similarity percentage.
+most_similar_word (str): The word from the list of common words that has the highest similarity with the input string.
+
+Example:
+input_string = 'apple'
+max_similarity, most_similar_word = predict_string(input_string)
+print(max_similarity, most_similar_word)  # Output: 100.0 apple
+
+
+
+THIS SOURCE OF DOCUMENTATION IS EITHER PARTIALLY OR FULLY GEENRATED THOUGH A GENERATIVE PRE-TRAINED TRANSFORMER,
+AND IS THOROUGHLY CHECKED AD EXAMINED BEFORE BEING PUBLISHED IF ANY ERRORS OR INACCURACIES ARE FOUND IN THE ABO-
+VE DOCUMENTATION PLEASE CREATE A REPORT. HOWEVER ANY AND EVERY SOURCE OF CODE IS PURELY HUMAN MADE
+AND WORKS AS PER THE USERS NEEDS IF EXECUTED IN A PROPER MANNER.

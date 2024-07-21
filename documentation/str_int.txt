@@ -1,0 +1,17 @@
+------
+str_int(input, u_data)
+Description: Converts each character in the input string to a corresponding integer value based on the position of the character in the alphabet (a=1, b=2, ..., z=26) and appends it to the provided list.
+
+Parameters:
+
+input (str): The input string containing characters to be converted.
+u_data (list): A list to which the converted integer values will be appended.
+Returns: None. The function modifies the u_data list in place.
+
+
+THIS SOURCE OF DOCUMENTATION IS EITHER PARTIALLY OR FULLY GEENRATED THOUGH A GENERATIVE PRE-TRAINED TRANSFORMER,
+AND IS THOROUGHLY CHECKED AD EXAMINED BEFORE BEING PUBLISHED IF ANY ERRORS OR INACCURACIES ARE FOUND IN THE ABO-
+VE DOCUMENTATION PLEASE CREATE A REPORT. HOWEVER ANY AND EVERY SOURCE OF CODE IS PURELY HUMAN MADE
+AND WORKS AS PER THE USERS NEEDS IF EXECUTED IN A PROPER MANNER.
+
+
