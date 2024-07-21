@@ -60,31 +60,38 @@ def str_int(input, u_data):
         u_data.append(26)
 
 
-def sim(trained_Data, tuple_data):
-    trainvalue = []
-    str_int(trained_Data, u_data=trainvalue) 
-    fedvalue = []
-    str_int(tuple_data, u_data=fedvalue)
+
+
+
+
+def sim(trainvalue, fedvalue, provide_sim=None, provide_anomaly=None, provide_all=None):
+    trainvalue = list(trainvalue)
+    fedvalue = list(fedvalue)
 
     trainvalue_sim_increase = 100 / len(trainvalue)
     fedvalue_sim_increase = 100 / len(fedvalue)
     sim = 0
     runTime = -1
     anomaly =[]
+    word_sim = []
     for i in fedvalue:
         runTime = runTime + 1
-        if len(trainvalue) < len(fedvalue):
-         required_len_Array = len(trainvalue) - len(fedvalue)
+        while len(trainvalue) < len(fedvalue):
          trainvalue.append(0)
         else:
          if i == trainvalue[runTime]:
             sim = sim + fedvalue_sim_increase
+            word_sim.append(i)
          else:
             anomaly.append(fedvalue.index(i))
-    if len(anomaly) == 0:
-        return sim
+         
+    if provide_sim  == True:
+        return sim, word_sim
+    elif provide_anomaly == True:
+        return sim, anomaly    
+    elif provide_all == True:
+        return sim, anomaly, word_sim
     else:
-
         return sim
 
 def sim_anomaly(trained_Data, tuple_data):
@@ -444,12 +451,10 @@ def predict_string(input_string):
         similarity =sim(y, input_string)
         similarity_array.append(similarity)
         
-    
-    return common_words[similarity_array.index(max(similarity_array))]
+    print(similarity_array)
+    return max(similarity_array), common_words[similarity_array.index(max(similarity_array))]
 """-------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------"""
-
-
