@@ -45,14 +45,9 @@ Official publication of the first PRVICT production release. Introducing more el
 * -: added new algo tests
 * -: added proprietary license
 
-NOTE: 
-DESPITE BEING A PRODUCTION RELEASE, THIS IS STILL THE FIRST RELEASE OF THE PROJECT AND MAY HAVE VERY MINOR INACCURACIES. THE DOCUMENTATION FOR THIS PROJECT IS AI GENERATED BUT IS EXAMINED IN A VERY THOROUGH MANNER.
-
-Enjoy developing.
 ***
 
 
 
-**Founder & dev**
-*Vaidik Khurana*
+
 
